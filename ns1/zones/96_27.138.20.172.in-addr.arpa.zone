@@ -1,0 +1,16 @@
+$ORIGIN 96/27.138.20.172.in-addr.arpa.
+$TTL 300
+
+@   IN SOA  ns1.backendservice.dn42. hostmaster.backendservice.dn42. (
+        2026081503
+        3600
+        900
+        1209600
+        300
+)
+    IN NS   ns1.backendservice.dn42.
+    IN NS   ns2.backendservice.dn42.
+
+97.96/27.138.20.172.in-addr.arpa. IN PTR  ns1.backendservice.dn42.
+98.96/27.138.20.172.in-addr.arpa. IN PTR  ns2.backendservice.dn42.
+99.96/27.138.20.172.in-addr.arpa. IN PTR  pbx.backendservice.dn42.
