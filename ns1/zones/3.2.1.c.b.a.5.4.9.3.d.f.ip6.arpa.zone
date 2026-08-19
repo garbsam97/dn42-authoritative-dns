@@ -2,7 +2,7 @@ $ORIGIN 3.2.1.c.b.a.5.4.9.3.d.f.ip6.arpa.
 $TTL 300
 
 @   IN SOA ns1.backendservice.dn42. hostmaster.backendservice.dn42. (
-        2026081402
+        2026081901
         3600
         900
         1209600
@@ -14,3 +14,5 @@ $TTL 300
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR ns1.backendservice.dn42.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR ns2.backendservice.dn42.
+
+0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.1 IN PTR mail.backendservice.dn42.

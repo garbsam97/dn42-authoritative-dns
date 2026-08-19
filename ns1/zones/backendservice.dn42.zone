@@ -2,7 +2,7 @@ $ORIGIN backendservice.dn42.
 $TTL 300
 
 @   IN SOA ns1.backendservice.dn42. hostmaster.backendservice.dn42. (
-        2026081801
+        2026081901
         3600
         900
         1209600
@@ -30,3 +30,14 @@ autopeer.uk1 IN A    172.20.138.100
 autopeer.uk1 IN AAAA fd39:45ab:c123:2::1
 
 peering.uk1 IN CNAME autopeer.uk1.
+
+mail IN A    172.20.138.102
+mail IN AAAA fd39:45ab:c123:1::20
+
+webmail IN A    172.20.138.102
+webmail IN AAAA fd39:45ab:c123:1::20
+
+mx IN A    172.20.138.102
+mx IN AAAA fd39:45ab:c123:1::20
+
+@ IN MX 10 mx.backendservice.dn42.
